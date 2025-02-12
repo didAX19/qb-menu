@@ -52,6 +52,7 @@ body {
   right: 20%;
   transition: all 0.4s ease-in-out;
   max-height: 800px;
+  max-width: 17vw;
 }
 
 .menu-buttons {
@@ -180,8 +181,13 @@ body {
   box-shadow: rgba(50, 50, 93, 1) 0px 10px 80px -25px, rgba(0, 0, 0, 0.3) 0px 30px 60px -50px;
 }
 
+
 .title > div.column > div.header {
   text-decoration: underline;
+  overflow: wrap;
+  overflow-wrap: break-word;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .disabled {
