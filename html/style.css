@@ -48,20 +48,19 @@ body {
 
 #container {
   position: absolute;
-  top: 20%;
-  right: 20%;
+  top: 5vh;
+  right: 5vh;
   transition: all 0.4s ease-in-out;
-  max-height: 800px;
-  max-width: 17vw;
+  max-height: 90vh;
+  max-width: max(17vw, 250px);
 }
 
 .menu-buttons {
   overflow: auto;
-  max-height: 516px;
+  max-height: 75vh;
   border-radius: 9px;
   background: var(--primary-color);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  
 }
 
 .button {
@@ -181,9 +180,9 @@ body {
   box-shadow: rgba(50, 50, 93, 1) 0px 10px 80px -25px, rgba(0, 0, 0, 0.3) 0px 30px 60px -50px;
 }
 
-
 .title > div.column > div.header {
   text-decoration: underline;
+  max-height: 7vh;
   overflow: wrap;
   overflow-wrap: break-word;
   white-space: normal;
